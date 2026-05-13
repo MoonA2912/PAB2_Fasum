@@ -5,6 +5,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_fasum/screens/add_post_screen.dart';
 import 'package:flutter_application_fasum/screens/sign_in_screen.dart';
+import 'package:flutter_application_fasum/screens/detail_screen.dart';
 import 'package:intl/intl.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -80,8 +81,26 @@ class _HomeScreenState extends State<HomeScreen> {
               String heroTag =
                   'fasum-image-${createdAt.millisecondsSinceEpoch}';
 
+              final latitude = (data['latitude'] as num?)?.toDouble() ?? 0.0;
+              final longitude = (data['longitude'] as num?)?.toDouble() ?? 0.0;
+
               return InkWell(
-                onTap: () {},
+                onTap: () {
+                  Navigator.of(context).push(
+                    MaterialPageRoute(
+                      builder: (context) => DetailScreen(
+                        imageBase64: imageBase64,
+                        description: description,
+                        createdAt: createdAt,
+                        fullName: fullName,
+                        latitude: latitude,
+                        longitude: longitude,
+                        category: category,
+                        heroTag: heroTag,
+                      ),
+                    ),
+                  );
+                },
                 child: Card(
                   elevation: 1,
                   color: Theme.of(context).colorScheme.surfaceContainerLow,

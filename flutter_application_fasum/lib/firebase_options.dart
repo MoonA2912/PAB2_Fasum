@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBOisLyxhxoSvL5P3Zv5776j5y1GYD1VEE',
-    appId: '1:544488593908:web:39a8d7e7301c464615c1a1',
-    messagingSenderId: '544488593908',
-    projectId: 'my-first-project-8de90',
-    authDomain: 'my-first-project-8de90.firebaseapp.com',
-    storageBucket: 'my-first-project-8de90.firebasestorage.app',
-    measurementId: 'G-9T3P2TZDDD',
+    apiKey: 'AIzaSyA2YIFR4WYEbMPVttJJdxHSv9lzw3kwZ6g',
+    appId: '1:367599712427:web:0782fdf6e490f50fdd9fee',
+    messagingSenderId: '367599712427',
+    projectId: 'first-app-4ab4d',
+    authDomain: 'first-app-4ab4d.firebaseapp.com',
+    storageBucket: 'first-app-4ab4d.firebasestorage.app',
+    measurementId: 'G-Y7PRH47RZ4',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBiZAgJN1eVOVD8T7luEXyZ7QB7yCGgxqk',
-    appId: '1:544488593908:android:f833c41fe1a6ebd515c1a1',
-    messagingSenderId: '544488593908',
-    projectId: 'my-first-project-8de90',
-    storageBucket: 'my-first-project-8de90.firebasestorage.app',
+    apiKey: 'AIzaSyDHlVRIwao3xgTmYiXQV-Yb1ft00eemy6Q',
+    appId: '1:367599712427:android:6d0ffc3d159b15c2dd9fee',
+    messagingSenderId: '367599712427',
+    projectId: 'first-app-4ab4d',
+    storageBucket: 'first-app-4ab4d.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCrV627rSVvi0MV4mer4lgLpUuQYyliANU',
-    appId: '1:544488593908:ios:822a73f37ee7175515c1a1',
-    messagingSenderId: '544488593908',
-    projectId: 'my-first-project-8de90',
-    storageBucket: 'my-first-project-8de90.firebasestorage.app',
+    apiKey: 'AIzaSyBFFEcfKnYGr081KG41Wl2QUgDxJlkjYbA',
+    appId: '1:367599712427:ios:acf8dfc21dec5c87dd9fee',
+    messagingSenderId: '367599712427',
+    projectId: 'first-app-4ab4d',
+    storageBucket: 'first-app-4ab4d.firebasestorage.app',
     iosBundleId: 'com.example.flutterApplicationFasum',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCrV627rSVvi0MV4mer4lgLpUuQYyliANU',
-    appId: '1:544488593908:ios:822a73f37ee7175515c1a1',
-    messagingSenderId: '544488593908',
-    projectId: 'my-first-project-8de90',
-    storageBucket: 'my-first-project-8de90.firebasestorage.app',
+    apiKey: 'AIzaSyBFFEcfKnYGr081KG41Wl2QUgDxJlkjYbA',
+    appId: '1:367599712427:ios:acf8dfc21dec5c87dd9fee',
+    messagingSenderId: '367599712427',
+    projectId: 'first-app-4ab4d',
+    storageBucket: 'first-app-4ab4d.firebasestorage.app',
     iosBundleId: 'com.example.flutterApplicationFasum',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyBOisLyxhxoSvL5P3Zv5776j5y1GYD1VEE',
-    appId: '1:544488593908:web:514e33ef4c5bb0ea15c1a1',
-    messagingSenderId: '544488593908',
-    projectId: 'my-first-project-8de90',
-    authDomain: 'my-first-project-8de90.firebaseapp.com',
-    storageBucket: 'my-first-project-8de90.firebasestorage.app',
-    measurementId: 'G-10BRPT9HBG',
+    apiKey: 'AIzaSyA2YIFR4WYEbMPVttJJdxHSv9lzw3kwZ6g',
+    appId: '1:367599712427:web:ef25bc5e4962cd7add9fee',
+    messagingSenderId: '367599712427',
+    projectId: 'first-app-4ab4d',
+    authDomain: 'first-app-4ab4d.firebaseapp.com',
+    storageBucket: 'first-app-4ab4d.firebasestorage.app',
+    measurementId: 'G-HYKSQYTP4N',
   );
+
 }
