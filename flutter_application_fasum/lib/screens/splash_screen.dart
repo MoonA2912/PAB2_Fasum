@@ -34,6 +34,7 @@ class _SplashScreenState extends State<SplashScreen>
     _controller.forward();
 
     Timer(const Duration(seconds: 3), () {
+      final user = FirebaseAuth.instance.currentUser;
       if (user != null) {
         Navigator.pushReplacement(
           context,
